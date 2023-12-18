@@ -1,0 +1,70 @@
+body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background-color: white;
+}
+
+.logo{
+      width: 4em;
+      height: auto;
+}
+
+p{
+      font-family: 'Montserrat', sans-serif;  
+}
+
+
+.h2-carousel{
+      margin: 5px;
+      padding: 5px;
+      color: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      font-weight: 900;
+      width: auto;
+      height: auto;
+}
+
+h1{
+      font-weight: 600;
+}
+
+h2{
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      font-weight: 900;
+      width: full-width;
+}
+
+h3{
+      font-weight: 600;
+}
+
+h3 .FAQ{
+      margin: 10px;
+
+}
+
+.p-carousel{
+      opacity: 0.9;
+      font-weight: 500;
+      height: auto;
+      width: auto;
+}
+
+.text-about{
+      display: flex;
+      text-align: left;
+      margin: 1em;
+}
+
+.mission-text{
+      display: flex;
+      text-align: center;
+      background-color: #C1E1F1;
+}
+
+
+  
+
+

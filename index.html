@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Gabriel Cârdei">
+  <meta name="keywords" content="Students, Organization, Student Organization, ONG">
+  <meta name="description"
+    content="Bine ai venit la StudentHub - organizația dedicată voluntariatului și implicării sociale! Suntem o comunitate vibrantă de tineri pasionați, uniți de dorința de a face o schimbare pozitivă în lumea noastră.
+
+        La StudentHub, credem că fiecare acțiune contează și că putem contribui la construirea unui viitor mai bun printr-un angajament colectiv. Cu proiecte variate și provocări sociale, oferim studenților oportunitatea de a-și folosi creativitatea, abilitățile și entuziasmul pentru a aduce contribuții semnificative comunității noastre.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    StudentHub
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,900;1,700&display=swap"
+    rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#about-us">
+          <img class="logo" src="Poze-tema3/partners.png" alt="Logo">
+        </a>
+        <h1 class="text-primary">StudentHub</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
+          aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#proiecte">Proiecte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#galerie">Galerie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carousel-section" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel-section" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel-section" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel-section" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carousel-section" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carousel-section" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-caption d-md-block">
+          <h2 class="h2-carousel">Voluntariat</h2>
+        </div>
+        <img src="Poze-tema3/volunteer.jpg" class="d-block w-100" alt="fotografie cu voluntari făcând un selfie">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption d-md-block">
+          <h2 class="h2-carousel">Workshops</h2>
+        </div>
+        <img src="Poze-tema3/teamwork.jpg" class="d-block w-100" alt="fotografie cu oameni în jurul unui monitor">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption d-md-block">
+          <h2 class="h2-carousel">Ședințe</h2>
+        </div>
+        <img src="Poze-tema3/hero.jpg" class="d-block w-100" alt="fotografie cu oameni zâmbind la birou">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption d-md-block">
+          <h2 class="h2-carousel">Teamwork</h2>
+        </div>
+        <img src="Poze-tema3/contact2.jpg" class="d-block w-100" alt="fotografie cu fistbump">
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-caption d-md-block">
+          <h2 class="h2-carousel">Teambuilding</h2>
+        </div>
+        <img src="Poze-tema3/trip.jpg" class="d-block w-100" alt="fotografie cu oameni privind priveliștea">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-section" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-section" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="about-us">
+    <h2>About Us</h2>
+    <div class="card mb-3 container mission-text">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="Poze-tema3/little-humans.png" class="img-fluid rounded-start"
+            alt="pictogramă cu omuleți care fac cu mâna">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">La StudentHub, nu suntem doar o asociație studențească, ci și o comunitate vibrantă
+              construită pe principiile colaborării și excelenței. Ne-am angajat să facilităm dezvoltarea holistică a
+              studenților, oferind un mediu
+              propice învățării și creării de legături durabile. Cu o viziune orientată către viitor, încurajăm spiritul
+              inovator și explorăm noi căi pentru a transforma ideile în acțiuni concrete. Prin proiecte și evenimente,
+              căutăm
+              să inspirăm lideri de mâine, pregătindu-i pentru provocările și oportunitățile pe care le vor întâlni în
+              carierele
+              lor. Alătură-te nouă în călătoria noastră de creștere și descoperă resursele și suportul de care ai nevoie
+              pentru
+              a-ți atinge potențialul maxim în timpul studenției și dincolo de ea.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-inner py-4">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="Poze-tema3/leadership.jpg" class="card-img-top" alt="imagine cu o coroană">
+                <div class="card-body">
+                  <h3 class="card-title">Leadership</h3>
+                  <span class="badge rounded-pill text-bg-primary">Studenție</span>
+                  <p class="card-text">Ne angajăm să dezvoltăm lideri autentici și empatici, capabili să aducă schimbări
+                    pozitive
+                    în comunitatea noastră și dincolo de ea. Prin proiecte inovatoare, programe de mentorat și
+                    evenimente de
+                    leadership, StudentHub devine un loc ideal pentru studenți.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="Poze-tema3/books.jpg" class="card-img-top" alt="băiat care citește o carte">
+                <div class="card-body">
+                  <h3 class="card-title">Learning</h3>
+                  <span class="badge rounded-pill text-bg-primary">Voluntariat</span>
+                  <p class="card-text"> Credem cu tărie în puterea învățării continue și suntem dedicați furnizării unei
+                    platforme
+                    educaționale inovatoare pentru studenții noștri. Cu accent pe dezvoltarea abilităților academice și
+                    profesionale, ne propunem să oferim resurse educaționale de calitate.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="Poze-tema3/meeting.jpg" class="card-img-top"
+                  alt="pictogramă cu omuleți stând în cerc la o masă">
+                <div class="card-body">
+                  <h3 class="card-title">Networking</h3>
+                  <span class="badge rounded-pill text-bg-primary">Proiecte</span>
+                  <p class="card-text">Ne dedicăm cultivării unui mediu vibrant și interconectat pentru studenții
+                    noștri. Suntem o
+                    comunitate dedicată dezvoltării personale și profesionale, oferind o platformă inovatoare de
+                    networking pentru
+                    a conecta studenții cu oportunități educative și profesionale.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div id="proiecte">
+    <h2>Proiecte</h2>
+  </div>
+  <div class="card mb-3 container mission-text">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Poze-tema3/role-model.png" class="img-fluid rounded-start" alt="pictogramă cu un super-erou">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-text">
+            În cadrul proiectelor noastre, ne dedicăm pentru aducerea ideilor la viață și abordarea provocărilor
+            contemporane cu inovație și determinare. Fiecare proiect reprezintă o oportunitate captivantă de a dezvolta
+            abilități practice, de a explora domenii diverse și de a contribui la crearea unei comunități mai conectate
+            și
+            progresive. De la inițiative sociale la proiecte educaționale și de cercetare, diversitatea portofoliului
+            nostru
+            reflectă angajamentul nostru față de schimbare și creștere continuă. Cu echipe dedicate și resurse dedicate,
+            căutăm să construim soluții inovatoare și să aducem impactul pozitiv în comunitatea noastră și dincolo de
+            ea.
+            Descoperă provocările pe care le adresăm și află cum poți contribui la construirea unui viitor mai
+            promițător prin
+            implicarea ta în proiectele noastre.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <div class="carousel-inner py-4">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img src="Poze-tema3/brainstorming.jpg" class="card-img-top"
+                alt="poză cu trei oameni stând la masă învățând">
+              <div class="card-body">
+                <h3 class="card-title">EducațiePlus</h3>
+                <p class="card-text">În cadrul acestui proiect, ne concentrăm asupra îmbunătățirii accesului la educație
+                  pentru toți. Organizăm ateliere, sesiuni de tutoriat și colectăm resurse educaționale pentru a
+                  sprijini elevii din comunitățile defavorizate. Fă parte din echipa de voluntari, oferă mentorat sau
+                  donează materiale școlare pentru a sprijini parcursul educațional al copiilor.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img src="Poze-tema3/innohack.jpg" class="card-img-top" alt="poză cu doi oameni care dau mâna">
+              <div class="card-body">
+                <h3 class="card-title">InnoHack</h3>
+                <p class="card-text">InnoHack este o competiție anuală de inovație și programare, dedicată studenților
+                  pasionați de tehnologie. Echipele concurează în rezolvarea problemelor complexe și dezvoltarea de
+                  soluții inovatoare, având șansa de a-și prezenta proiectele în fața unui juriu de specialiști.
+                  Înscrie-te în competiție și arată-ti skill-urile de programator!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img src="Poze-tema3/youthconnect.jpg" class="card-img-top"
+                alt="poză cu adolescenți formând o stea cu mâinile lor">
+              <div class="card-body">
+                <h3 class="card-title">YouthConnect</h3>
+                <p class="card-text">YouthConnect este proiectul nostru de conectare a tinerilor și de promovare a
+                  colaborării interculturale. Organizăm evenimente sociale, schimburi de experiență și promovăm
+                  diversitatea culturală în campusuri și comunități. Participă la evenimente, împărtășește povestea ta
+                  și implică-te în proiectele noastre de integrare interculturală.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-inner py-4">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img src="Poze-tema3/careerboost.jpg" class="card-img-top" alt="poză cu planul unui proiect pe echipe">
+              <div class="card-body">
+                <h3 class="card-title">CareerBoost</h3>
+                <p class="card-text">CareerBoost este un proiect ce oferă resurse, ateliere și evenimente pentru a
+                  sprijini studenții în dezvoltarea abilităților profesionale, explorarea carierelor și stabilirea
+                  conexiunilor cu profesioniștii din diverse domenii. În plus, "CareerBoost" se angajează să faciliteze
+                  stagii și oportunități de mentorat, punând accent pe construirea unei punți solide între lumea
+                  academică și cea profesională.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img src="Poze-tema3/ecofuture.jpg" class="card-img-top" alt="poză cu oameni întinși pe iarbă">
+              <div class="card-body">
+                <h3 class="card-title">EcoFuture</h3>
+                <p class="card-text">Ne preocupă viitorul mediului nostru, și prin acest proiect, ne concentrăm asupra
+                  acțiunilor concrete pentru protejarea planetei. Organizăm activități de curățenie a mediului, promovăm
+                  reciclarea și susținem inițiative pentru reducerea amprentei ecologice. Alătură-te acțiunilor de
+                  curățenie, implică-te în campanii de conștientizare și susține inițiativele noastre de mediu.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img src="Poze-tema3/pawrescue.jpg" class="card-img-top" alt="poză cu o pisicuță">
+              <div class="card-body">
+                <h3 class="card-title">PawSoul Rescue</h3>
+                <p class="card-text">PawSoul Rescue este un proiect de adopție dedicat salvării și reabilitării
+                  animalelor fără stăpân. Misiunea noastră este să găsim cămine iubitoare pentru câinii și pisicile
+                  abandonate, oferindu-le îngrijire medicală, training și iubire, și în același timp educând comunitatea
+                  despre responsabilitatea de a deține un animal de companie. Alătură-te misiunii noastre și fii parte
+                  din eforturile noastre.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="galerie">
+    <h2>Galerie</h2>
+    <div class="card mb-3 container mission-text">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="Poze-tema3/camera.png" class="img-fluid rounded-start" alt="pictogramă cu un aparat-foto">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">Descoperă momentele captivante și pline de energie din viața noastră universitară în
+              Galeria StudentHub. Aici, imaginile spun povești despre evenimentele noastre sociale, schimburile de
+              experiență și comunitatea vibrantă pe care am construit-o împreună. De la momente de învățare la râsete
+              spontane și colaborări interculturale, galeria noastră reflectă diversitatea și spiritul echipei noastre.
+              Navighează prin colecția noastră vizuală pentru a te conecta cu atmosfera unică a StudentHub. Fiecare
+              fotografie capturează nu doar evenimente, ci și emoțiile și relațiile care definesc experiența noastră.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center text-lg-start">
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/ședință.jpg"
+              alt="poză cu oameni care discută într-un birou">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/team-building2.jpg" alt="poză cu bărbați în costum">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/it.jpg" alt="poză cu oameni care se uită la un laptop">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/fericire.jpg " alt="poză cu o femeie care zâmbește">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/volunteer1.jpg"
+              alt="poză cu voluntari ținând pancarte">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/workplace.jpg" alt="poză cu oameni care discută">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/hiking.jpg" alt="poză cu un drumeț uitându-se în cer">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/laptop.jpg"
+              alt="poză cu oameni arătând către un laptop">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/teamwork2.jpg"
+              alt="poză cu oameni ținând mâinile una peste alta">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/activitate.jpg"
+              alt="poză cu oameni care învață în oameni liber">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/teamwork1.jpg"
+              alt="poză cu oameni care unesc piesele unui puzzle">
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6">
+          <div class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="Poze-tema3/planning.jpg"
+              alt="poză cu oameni care desenează un plan">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <h2>Contact</h2>
+      <div class="card container mb-3 chenarcard w-100 pt-4">
+        <div class="row g-0">
+          <div class="col-md-6 d-flex align-items-center">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.737897341212!2d23.63346117621698!3d46.770062571125294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c68337470e9%3A0x357e3f6e8073a727!2sBaza%20Sportiv%C4%83%20Gheorgheni!5e0!3m2!1sro!2sro!4v1702767007637!5m2!1sro!2sro"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text">Indiferent dacă ești student sau ai o idee de proiect pe care vrei să o împărtășești
+                cu noi, suntem aici pentru a face posibile acele conexiuni relevante și a construi împreună un mediu
+                universitar mai dinamic. Așteptăm cu entuziasm să primim vești de la tine și să începem o nouă etapă în
+                colaborarea noastră!</p>
+              <ul>
+                <li><img src="Poze-tema3/telephone.png" alt="pictogramă cu un telefon"> : <a href="tel:0771234567">
+                    0771234567</a></li>
+                <li><img src="Poze-tema3/mail.png" alt="pictogramă cu o scrisoare"> : <a
+                    href="mailto:studenthub@contact.com"> www.studenthub@contact.com</a></li>
+              </ul>
+              <h3>Social Media</h3>
+              <a href="https://www.facebook.com/facebook/?brand_redir=103274306376166" target="_blank"><img
+                  src="Poze-tema3/facebook.png" alt="facebook flaticon"></a>
+              <a href="https://www.instagram.com/instagram/" target="_blank"><img src="Poze-tema3/instagram.png"
+                  alt="instagram flaticon"></a>
+              <a href="https://twitter.com/romeothesuny/status/1355644131897450505" target="_blank"><img
+                  src="Poze-tema3/x.png" alt="x flaticon"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="FAQ">
+      <h3>FAQ's</h3>
+      <div class="accordion" id="accordion-section">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              <h4>Cum pot deveni membru StudentHub?</h4>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              Pentru a deveni membru, poți completa formularul nostru online de înscriere pe social media sau poți veni
+              direct la sediul nostru și să ne contactezi pentru mai multe detalii. Suntem încântați să primim noi
+              membri și să îi integram în comunitatea noastră vibrantă!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              <h4>Ce evenimente și activități organizează StudentHub?</h4>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              Ca membru al StudentHub, vei avea parte de experiența unei comunități universitare dinamice. Aici, vei
+              participa la evenimente sociale captivante, schimburi de experiență și proiecte care promovează
+              diversitatea culturală și interacțiunea între studenți. Vei putea contribui la inițiativele noastre,
+              împărtășind propria ta perspectivă și aducând idei inovatoare în discuție. De asemenea, vei participa la
+              workshop-uri pentru dezvoltarea skill-urilor necesare pentru internship-uri.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              <h4>Cum pot contribui cu idei sau propuneri pentru proiecte noi?</h4>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              Suntem întotdeauna deschiși la sugestii! Poți să ne trimiți ideile tale prin e-mail la adresa<a
+                href="mailto:studenthub@contact.com"> www.studenthub@contact.com</a> sau să participi la ședințele
+              noastre săptămânale, unde poți împărtăși direct propunerile tale. Echipa noastră este entuziasmată să
+              asculte toate sugestiile și să colaboreze pentru a implementa proiecte inovatoare.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#about-us" class="nav-link p-0 text-muted">About</a></li>
+              <li class="nav-item mb-2"><a href="#proiecte" class="nav-link p-0 text-muted">Proiecte</a></li>
+              <li class="nav-item mb-2"><a href="#galerie" class="nav-link p-0 text-muted">Galerie</a></li>
+              <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-muted">Contact</a></li>
+              <li class="nav-item mb-2"><a href="#FAQ" class="nav-link p-0 text-muted">FAQ's</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://www.facebook.com/facebook/?brand_redir=103274306376166"
+                  target="_blank" class="nav-link p-0 text-muted">Facebook</a></li>
+              <li class="nav-item mb-2"><a href="https://www.instagram.com/instagram/" target="_blank"
+                  class="nav-link p-0 text-muted">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="https://twitter.com/romeothesuny/status/1355644131897450505"
+                  target="_blank" class="nav-link p-0 text-muted">Twitter</a></li>
+              <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-muted">Mail</a></li>
+              <li class="nav-item mb-2"><a href="#contact" class="nav-link p-0 text-muted">Telefon</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3 nav-link p-0 text-muted">
+            <form>
+              <h3>Abonează-te la newsletter-ul nostru!</h3>
+              <p>Primește informații despre asociație și activitățile noastre.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <a class="link-dark" href="https://twitter.com/romeothesuny/status/1355644131897450505"
+                  target="_blank"><button class="btn btn-primary" type="button">Subscribe</button></a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top nav-link p-0 text-muted">
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex nav-link p-0 text-muted">
+            <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/facebook/?brand_redir=103274306376166"
+                target="_blank"><img src="Poze-tema3/facebook.png" alt="facebook flaticon"></a></li>
+            <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/instagram/" target="_blank"><img
+                  src="Poze-tema3/instagram.png" alt="instagram flaticon"></a></li>
+            <li class="ms-3"><a class="link-dark" href="https://twitter.com/romeothesuny/status/1355644131897450505"
+                target="_blank"><img src="Poze-tema3/x.png" alt="x flaticon"></a></li>
+          </ul>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
